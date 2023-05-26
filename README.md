@@ -21,6 +21,9 @@ Now you can run both scripts together.
 - [https://web.dev/learn/css/](https://web.dev/learn/css/)
 - [The CSS Podcast](https://thecsspodcast.libsyn.com)
 
+## Javascript
+- [https://javascript30.com](https://javascript30.com)
+
 ## Server (Express)
 
 - [Express Cheatsheet](https://devhints.io/express)

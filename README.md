@@ -1,6 +1,6 @@
 # lior-projects
 
-Here are all the projects we worked on.
+Here are all the projects we worked on. Remember to run `npm install` in the project folder before trying to start any project.
 
 There are two scripts in this project to make it easier to run
 

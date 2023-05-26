@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .red {
+        color: red;
+      }
+      .big {
+        font-size: xx-large;
+      }
+      .card__header--enabled {
+        ... 20 lines of styles...;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="red">
+      <span class="big">hello world!!!!!!!!</span>
+      <span>hello world!!!!!!!!</span>
+      <span>hello world!!!!!!!!</span>
+      <span>hello world!!!!!!!!</span>
+      <span>hello world!!!!!!!!</span>
+      <span>hello world!!!!!!!!</span>
+      <span>hello world!!!!!!!!</span>
+    </p>
+    <script>
+      const spans = document.querySelectorAll("span");
+
+      for (const span of spans) {
+        span.addEventListener("click", (event) => {
+          console.log("bla");
+          span.classList.toggle("big");
+        });
+      }
+    </script>
+  </body>
+</html>

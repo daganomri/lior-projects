@@ -1,0 +1,21 @@
+{
+  "name": "lior-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "cd express-project && npm start",
+    "start-client": "cd lior-react && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daganomri/lior-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daganomri/lior-projects/issues"
+  },
+  "homepage": "https://github.com/daganomri/lior-projects#readme"
+}
